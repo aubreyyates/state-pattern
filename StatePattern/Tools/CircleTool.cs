@@ -6,17 +6,17 @@
     public class CircleTool : Tool
     {
         /// <summary>
-        /// Performs logic when the mouse down happens. The circle icon appears.
+        /// Performs logic when the mouse down happens. The Circle icon appears.
         /// </summary>
-        void Tool.MouseDown()
+        public void MouseDown()
         {
             Console.WriteLine("Circle icon");
         }
 
         /// <summary>
-        /// Performs logic when the mouse up happens. The circle gets drawn.
+        /// Performs logic when the mouse up happens. The Circle gets drawn.
         /// </summary>
-        void Tool.MouseUp()
+        public void MouseUp()
         {
             Console.WriteLine("Draw circle");
         }

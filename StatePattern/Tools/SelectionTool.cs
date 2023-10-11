@@ -8,15 +8,15 @@
         /// <summary>
         /// Performs logic when the mouse down happens. The Selection icon appears.
         /// </summary>
-        void Tool.MouseDown()
+        public void MouseDown()
         {
             Console.WriteLine("Selection icon");
         }
 
         /// <summary>
-        /// Performs logic when the mouse up happens. The selection rectangle appears.
+        /// Performs logic when the mouse up happens. The Selection rectangle appears.
         /// </summary>
-        void Tool.MouseUp()
+        public void MouseUp()
         {
             Console.WriteLine("Draw dashed rectangle");
         }

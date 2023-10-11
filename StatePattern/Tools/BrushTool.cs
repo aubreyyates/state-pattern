@@ -8,7 +8,7 @@
         /// <summary>
         /// Performs logic when the mouse down happens. The Brush icon appears.
         /// </summary>
-        void Tool.MouseDown()
+        public void MouseDown()
         {
             Console.WriteLine("Brush icon");
         }
@@ -16,7 +16,7 @@
         /// <summary>
         /// Performs logic when the mouse up happens. The Brush line gets drawn.
         /// </summary>
-        void Tool.MouseUp()
+        public void MouseUp()
         {
             Console.WriteLine("Draw brushed line");
         }
